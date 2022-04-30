@@ -51,6 +51,14 @@ p {
   color: #00204a;
 }
 
+.blurb {
+  margin: 0;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
 form.item {
   text-align: center;
   margin-left: 20px;
