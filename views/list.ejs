@@ -4,7 +4,6 @@
     <h1> <%= listTitle %> </h1>
   </div>
 
-
   <div class="box">
       <% newListItems.forEach(function(item) { %>
   <form action="/delete" method="post">
@@ -23,5 +22,8 @@
         <button type="submit" name="list" value="<%= listTitle %>">+</button>
       </form>
   </div>
+
+  <p class="blurb">To add more To Do Lists:</p>
+  <p class="blurb">E.g. https://damp-brook-62234.herokuapp.com/New</p>
 
 <%- include("footer") -%>
